@@ -113,7 +113,7 @@ header{
     content: url(../images/ArrowDown.png);
     display: block;
     position: relative; 
-    top:-1634px;
+    top:-1187px;
     left:200px;
 }
 .cars_header{
@@ -122,6 +122,8 @@ header{
 .form{
     display: flex;
     justify-content: space-between;
+    margin-top:50px;
+    /* margin-bottom: 150px; */
 }
 
 
@@ -146,23 +148,71 @@ header{
 }
 
 
+.cars_list{
+    margin:133px;
+}
 .car_ul{
     display: flex;
     flex-wrap: wrap;
     width: 1084px;
     justify-content: space-around;
-    margin-left: 20px;
-    margin-right: 20px;
+    
 }
 
 .car_ul li{
-    height: 452px;
-    width: 308px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;   
     align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top:100px;
 }
+
+.bmw_img{
+    width:256px;
+    height:144px;
+    
+}
+
+.car_img{
+    width:348px;
+    height:196px;
+}
+
+.price{
+    margin-left:107px;
+    color:#6AB04C;
+
+}
+
+.price::before{
+    color:#95A5A6;
+    content: "From:"
+}
+
+.info{
+    color:#95A5A6;
+}
+
+.cars_p{
+    color:#95A5A6;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    border:1px solid grey;
+    
+    
+  }
+
+ /* .white , .black ,.red,.orange,
+ .grey ,.green,.yellow,.pink,.blue{
+
+ } */
 
 
 
