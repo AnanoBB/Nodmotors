@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.body{
+    max-width: 1084px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;   
+    align-items: center;
+}
+
+.logo{
+    width:154px;
+    height: 40px;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    padding:5px;
+    
+    
+}
+
+.first_list{
+    display: flex;
+    font-size:14px;
+    margin:10px;
+    color:black;
+    margin-top: 15px;
+    
+
+}
+
+.first_list:hover{
+    color:#BADC58;
+    background-color:#E8F0F3;
+    transition:300ms color ease;
+}
+
+.book{
+    border-width: 100px;
+    padding: 15px 32px 15px 35px;
+    border-radius: 30px;
+    background-image: linear-gradient(#6AB04C, #BADC58);
+    color:#fff;
+   
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+.hero::after{
+    display: flex;
+    background-color: #E8F0F3;
+    content: url(../images/nodmotors.png);
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    height: 825px;
+    align-items: center;
+    justify-content: center;
+    
+      
+}
+
+.hero_content{
+    margin-top:100px;
+}
+.car_info{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    
+
+}
+
+.car_info ul{
+    margin-left:60px;
+    margin-right: 60px;
+}
+
+.car_info li:first-child{
+    color:#6AB04C; 
+    font-size:12px; 
+}
+
+.car_info li:nth-child(2){
+    font-size: 30px;
+    font-weight: bold;
+}
+.cars{
+    margin:68px 25px;
+    
+}
+
+.cars::after{
+    content: url(../images/ArrowDown.png);
+    display: block;
+    position: relative; 
+    top:-1634px;
+    left:200px;
+}
+.cars_header{
+    margin-top:90px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.selector{
+    width:164px;
+    border-radius: 40px;
+    font-size: 14px;
+    height: 40px;
+    border:1px solid #fff;
+    box-shadow: 0 3px 6px 0 rgba(24, 24, 24, 0.06);
+    background-color: #fff;
+}
+
+.amount{
+    width:72px;
+    height:40px;
+    padding: 15px 32px 15px 35px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border:1px solid #fff;
+    background-image: linear-gradient(#6AB04C, #BADC58);
+}
+
+
+.car_ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1084px;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.car_ul li{
+    height: 452px;
+    width: 308px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    align-items: center;
+}
+
+
+
+
+
+
+/*star of footer styling*/
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+}
+
+.footer p{
+    color: #95A5A6;
+}
+
+.contact{
+    display: flex;
+}
+
+.num{
+    color: #95A5A6;
+}
+
+
+
