@@ -1,3 +1,5 @@
+
+
 *{
     margin:0;
     padding:0;
@@ -8,6 +10,7 @@
 .body{
     max-width: 1084px;
     margin: 0 auto;
+    font-family: 'pantonmtav3bold';
 }
 
 header{
@@ -123,31 +126,44 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top:50px;
+    
+    
+
     /* margin-bottom: 150px; */
 }
 
-
 .selector{
-    width:164px;
-    border-radius: 40px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    width: 164px;
+    border-radius:40px;
     font-size: 14px;
-    height: 40px;
+    height:40px;
     border:1px solid #fff;
-    box-shadow: 0 3px 6px 0 rgba(24, 24, 24, 0.06);
-    background-color: #fff;
+    box-shadow:0 3px 6px 0 rgba(24,24,24,0.06);
+    text-indent: 40%;
+    background-image: url(../images/ArrowB.png);
+    background-repeat: no-repeat;
+    background-position: 75% 55%;
 }
 
 .amount{
-    width:72px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    width: 72px;
+    border-radius:40px;
+    font-size: 14px;
     height:40px;
-    padding: 15px 32px 15px 35px;
-    border-top-right-radius: 90px;
-    border-bottom-right-radius: 90px;
     border:1px solid #fff;
+    box-shadow:0 3px 6px 0 rgba(24,24,24,0.06);
+    
+    text-indent: 40%;
+    background-image: url(../images/ArrowB.png);
     background-image: linear-gradient(#6AB04C, #BADC58);
+    background-repeat: no-repeat;
+    background-position: 75% 55%;
+
 }
-
-
 .cars_list{
     margin:133px;
 }
@@ -199,7 +215,7 @@ header{
     color:#95A5A6;
 }
 
-.dot {
+/* .dot {
     height: 12px;
     width: 12px;
     border-radius: 50%;
@@ -207,15 +223,46 @@ header{
     border:1px solid grey;
     
     
-  }
+  } */
 
- /* .white , .black ,.red,.orange,
- .grey ,.green,.yellow,.pink,.blue{
+ .white , .black , .red, .orange,
+ .grey , .green, .yellow, .pink, .blue{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    border:1px solid #95A5A6;
 
- } */
 
+ }
 
+ .black{
+    background-color: black;
+ }
 
+ .red{
+     background-color: #AA071E;
+ }
+
+ .grey{
+     background-color: grey;
+ }
+ .pink{
+     background-color: #FF664F
+ }
+
+ .blue{
+     background-color: #2F6AA2;
+ }
+.yellow{
+    background-color: #D1BB3F;
+}
+.orange{
+    background-color: #FF9331;
+}
+.green{
+    background-color: #6AB04C 
+}
 
 
 
