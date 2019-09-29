@@ -263,16 +263,23 @@ header{
 
 
 /*Second page*/
+.body{
+    max-width: 1084px;
+    margin: 0 auto;
+}
 .first_section{
     display: flex;
     justify-content: space-between;
     margin-top:70px;
- 
+    margin-left:184px;
 
 }
 
 .performance{
-    margin-left:20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .performance img{
@@ -280,17 +287,154 @@ header{
     height:427px;
 }
 
-.performance p{
-    width: 440px;
-    word-break: break-all;
+.performance h1{
+    font-size: 30px;
     
 }
 
-.history p{
-    width:532px;
-    height:68px;
+.performance p{
+    width: 440px;
     word-break: break-all;
+    color: #95A5A6;
+    
 }
+.history{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.history_h{
+    display: flex;
+    align-self: flex-start;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top:15px;
+}
+.history p{
+    max-width: 532px;
+    margin-bottom: 42px;
+    word-break: break-all;
+    color: #95A5A6;
+}
+
+.history img{
+    width:775px;
+    margin-bottom: 18px;
+}
+
+.second_section{
+    display:flex;
+    margin-top:70px;
+    margin-left:143px;
+}
+
+.star_aside{
+    margin-right: 20px;
+    margin-left: 41px;
+    max-width:625px;
+    
+}
+
+.built{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #e8f0f3;
+    width: 624px;
+    height: 400px;  
+}
+
+.rating h1{
+    margin-bottom: 25px;
+}
+
+.rating_list li{
+    font-size: 18px;
+    margin-bottom: 28px;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.built_h{
+    font-size:30px;
+    margin-bottom:30px;
+}
+
+.built p{
+    font-size:14px;
+    color:#95A5A6;
+    margin-bottom:30px;
+
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+    
+}
+
+.map h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.map p{
+    font-size:14px;
+    color:#95A5A6;
+    margin-bottom: 20px;}
+ 
+
+.car_pics{ display: flex;
+    justify-content: space-between;
+    margin-left:176px;
+    margin-right:95px;
+    margin-top:100px; }
+     
+.tesla{
+        margin-top:30px;
+        margin-bottom:15px;
+        margin-left:170px;
+    }
+.cars_list2{
+        margin-right:43px;
+        margin-bottom:1 
+    }
+.car_ul2{
+        display: flex;
+        flex-wrap: wrap;
+        
+        justify-content: space-around;
+        
+    }
+
+
+.tesla_h{
+    font-size:30px;
+    
+
+}   
+    
+.car_ul2 li{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;   
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top:100px;
+    }
 
 
 
