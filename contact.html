@@ -12,10 +12,10 @@
                 <img class="logo" src="assets/images/Logo.png">
                 <nav class="nav">
                     <ul>
-                        <a href="#!"><li class="first_list">Cars</li></a>
-                        <a href="#!"><li class="first_list" >Terms and Conditions</li></a>
-                        <a href="#!"><li class="first_list">Contact</li></a>
-                        <a href="#!"><li onclick="show_hide()" class="book">Book</li></a>
+                        <a href="./index.html"><li class="first_list">Cars</li></a>
+                        <a href="./terms.html"><li class="first_list" >Terms and Conditions</li></a>
+                        <a href="contact.html"><li class="first_list">Contact</li></a>
+                        <a href="#!"><li onclick="show_hide()" id="showB" class="book">Book</li></a>
                     </ul>
                 </nav>
     
@@ -31,9 +31,22 @@
             <input type="number" name="Phone" placeholder="Phone">
             <input type="email" name="email" placeholder="Email">
             <input type="text" name="message" placeholder="Message" class="message">
-            <input type="submit" value="Send" class="submit"> 
+            <input type="submit" value="Send" class="submit" id="submit"> 
+            
         </form>
+        <div class="overlay_div">
+                <div class="check_overlay">
+                  <img src="assets/images/Check.png">
+                  <p>Thank You!
+                    Your message has been send successfully.
+                  </p>
+    
+                </div>
+    
+              </div>
     </div>
+
+
     
             
 <!--overlay-->
@@ -88,9 +101,27 @@
                <input class="con_input" type="number" name="Phone" placeholder="Phone">
                <input  class="con_input"type="email" name="email" placeholder="Email">
                <input  class="con_input" type="text" name="message" placeholder="Message" class="message1">
-               <input  type="submit" value="Send" class="submit1"> 
-           </form>
+               <input  type="submit" value="Send" class="submit1" id="Send"> 
+ </form>
+  <!--Thank you-->
+          <div class="main_div">
+            <div class="check">
+              <img src="assets/images/Check.png">
+              <p>Thank You!
+                Your message has been send successfully.
+              </p>
 
+            </div>
+
+          </div>
+          <!--Thank you-->
+
+
+
+
+          
+
+        
         </aside>
     </section>    
 
@@ -114,6 +145,7 @@
     
 
 <script src="./assets/js/script.js"></script>
+<script src="./assets/js/contact.js"></script>
     
     
 </body>

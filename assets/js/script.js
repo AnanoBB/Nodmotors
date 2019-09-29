@@ -14,3 +14,12 @@ function show_hide(){
     book.textContent = "Book";
   }
 }
+
+document.getElementById('submit').addEventListener('click',function(){
+  document.querySelector(".overlay_div").style.display ='flex';
+  document.querySelector('.overlay_form').style.display='none';
+  
+
+})
+
+

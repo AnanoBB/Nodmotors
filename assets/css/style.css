@@ -529,6 +529,14 @@ input{
     height:60px;
 }
 
+.overlay_div{
+    width:216px;
+    height: 240px;
+    text-align: center;
+    margin:auto;
+    display:none;
+}
+
 
 
 
