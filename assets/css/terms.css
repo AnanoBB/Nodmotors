@@ -1,0 +1,115 @@
+@font-face{
+    font-family: panton;
+    src: url(../fonts/panton.ttf);
+}
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    font-family: panton;
+
+}
+
+.body{
+    max-width: 1084px;
+    margin: 0 auto;
+  
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-around;   
+    align-items: center;
+    margin-top:20px;
+}
+
+.logo{
+    width:154px;
+    height: 40px;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    padding:5px;
+    
+    
+}
+
+
+.first_list{
+    display: flex;
+    font-size:14px;
+    margin:10px;
+    color:black;
+    margin-top: 15px;
+    
+
+}
+
+.first_list:hover{
+    color:#BADC58;
+    background-color:#fff;
+    transition:300ms color ease;
+}
+
+.book{
+    border-width: 100px;
+    padding: 15px 32px 15px 35px;
+    border-radius: 30px;
+    background-image: linear-gradient(#6AB04C, #BADC58);
+    color:#fff;
+   
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:134px;
+}
+
+section h1{
+    font-size: 30px;
+}
+
+section p{
+    font-size: 14px;
+    color:#95A5A6;
+    margin-top:20px;
+    display: block;
+    word-break: break-all;
+    width:716px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+}
+
+.footer p{
+    color: #95A5A6;
+}
+
+.contact{
+    display: flex;
+}
+
+.footer a{
+    color: #95A5A6;
+    margin-left:10px;
+}
+
+

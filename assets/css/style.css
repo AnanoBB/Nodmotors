@@ -1,22 +1,30 @@
-
+@font-face{
+    font-family: panton;
+    src: url(../fonts/panton.ttf);
+}
 
 *{
     margin:0;
     padding:0;
     text-decoration: none;
     list-style: none;
+    font-family: panton;
 }
 
 .body{
     max-width: 1084px;
     margin: 0 auto;
-    font-family: 'pantonmtav3bold';
+    
+    
 }
 
 header{
     display: flex;
     justify-content: space-around;   
     align-items: center;
+    position: relative;
+    z-index:5;
+    
 }
 
 .logo{
@@ -116,8 +124,8 @@ header{
     content: url(../images/ArrowDown.png);
     display: block;
     position: relative; 
-    top:-1187px;
-    left:200px;
+    top:-1158px;
+    left:-200px;
 }
 .cars_header{
     margin-top:90px;
@@ -155,15 +163,14 @@ header{
     font-size: 14px;
     height:40px;
     border:1px solid #fff;
-    box-shadow:0 3px 6px 0 rgba(24,24,24,0.06);
-    
+    box-shadow:0 3px 6px 0 rgba(24,24,24,0.06);   
     text-indent: 40%;
     background-image: url(../images/ArrowB.png);
-    background-image: linear-gradient(#6AB04C, #BADC58);
     background-repeat: no-repeat;
     background-position: 75% 55%;
 
 }
+
 .cars_list{
     margin:133px;
 }
@@ -215,16 +222,6 @@ header{
     color:#95A5A6;
 }
 
-/* .dot {
-    height: 12px;
-    width: 12px;
-    border-radius: 50%;
-    display: inline-block;
-    border:1px solid grey;
-    
-    
-  } */
-
  .white , .black , .red, .orange,
  .grey , .green, .yellow, .pink, .blue{
     height: 12px;
@@ -265,6 +262,45 @@ header{
 }
 
 
+/*Second page*/
+.first_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top:70px;
+ 
+
+}
+
+.performance{
+    margin-left:20px;
+}
+
+.performance img{
+    width:440px;
+    height:427px;
+}
+
+.performance p{
+    width: 440px;
+    word-break: break-all;
+    
+}
+
+.history p{
+    width:532px;
+    height:68px;
+    word-break: break-all;
+}
+
+
+
+
+
+
+
+
+
+/*End of Second page*/
 
 /*star of footer styling*/
 
@@ -284,9 +320,79 @@ header{
     display: flex;
 }
 
-.num{
+.footer a{
     color: #95A5A6;
+    margin-left:10px;
 }
+
+#overlay{
+position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index:4;
+  opacity: .95;
+  cursor: pointer;
+}
+
+.overlay_h{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top:151px;
+}
+
+.overlay_p{
+   margin:28px 40%;
+   font-size:14px;
+   color:#95A5A6;
+   width:280px;
+   text-align:center;
+  
+}
+
+.overlay_form{
+    width: 216px;
+    height:240px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    right:-600px;
+    z-index:3;
+}
+
+input{
+    
+    width:216px;
+    height:30px;
+    border-radius:4px;
+    border:none;
+    background-color: #E8F0F3;
+    color:#B4C4C5;
+    text-align:justify;
+    
+}
+.submit{
+    background-image: linear-gradient(#6AB04C, #BADC58);
+    color:#fff;
+    text-align: center;
+}
+
+.message{
+    height:60px;
+}
+
+
+
+
+
 
 
 
