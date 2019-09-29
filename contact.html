@@ -15,27 +15,28 @@
                         <a href="#!"><li class="first_list">Cars</li></a>
                         <a href="#!"><li class="first_list" >Terms and Conditions</li></a>
                         <a href="#!"><li class="first_list">Contact</li></a>
-                        <a href="#!"><li class="book">Book</li></a>
+                        <a href="#!"><li onclick="show_hide()" class="book">Book</li></a>
                     </ul>
                 </nav>
     
         </header>
-
-        <div id="overlay"  style="display: none;"> 
-                <h1 class="overlay_h">Booking Form</h1>
-                <p class="overlay_p">Includes Michelin Pilot Sport 4S tires,larger,
-                more powerful brakes and lowerd
-                </p>
-                <form class="overlay_form">
-                    <input type="text" name="Name" placeholder="Name">
-                    <input type="number" name="Phone" placeholder="Phone">
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="text" name="message" placeholder="Message" class="message">
-                    <input type="submit" value="Send" class="submit"> 
-                </form>
-            </div>
+<!--overlay-->
+<div id="overlay"  style="display: none;"> 
+        <h1 class="overlay_h">Booking Form</h1>
+        <p class="overlay_p">Includes Michelin Pilot Sport 4S tires,larger,
+        more powerful brakes and lowerd
+        </p>
+        <form class="overlay_form">
+            <input type="text" name="Name" placeholder="Name">
+            <input type="number" name="Phone" placeholder="Phone">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="message" placeholder="Message" class="message">
+            <input type="submit" value="Send" class="submit"> 
+        </form>
+    </div>
+    
             
-
+<!--overlay-->
      <main> 
     <section class="information">
         <aside>
@@ -112,7 +113,7 @@
             </footer>
     
 
-
+<script src="./assets/js/script.js"></script>
     
     
 </body>
