@@ -16,9 +16,30 @@
                             <a href="#!"><li class="first_list">Cars</li></a>
                             <a href="terms.html"><li class="first_list" >Terms and Conditions</li></a>
                             <a href="./contact.html"><li class="first_list">Contact</li></a>
-                            <a href="#!"><li onclick="show_hide()" class="book" id="showB">Book</li></a>
+                            <a href="#!"><li onclick="show_hide1()" class="book" id="showB">Book</li></a>
                         </ul>
                     </nav>
+
+                    <section class="clicked_menu" id="clickedMenu">
+                            <div style="display: none;" class="burger_menu" id="drop-content">
+
+                                    <ul class="burger_ul">
+                                            <li><a href="#!" class="burger_li">cars</a></li>
+                                            <li><a href="#prod" class="burger_li">Terms and Conditions</a></li>
+                                            <li><a href="#contact" class="burger_li">Contact</a></li>
+                                            <a href="#!"><li onclick="show_hide1()" class="book" id="showB">Book</li></a>
+                                            
+                                        </ul>
+                            
+                            </div>
+                    </section>
+
+                    <div onclick="show_hide()" class="burger_lines" id="activeB">
+                            <div class="line" id="line1"></div>
+                            <div class="line" id="line2"></div>
+                            <div class="line" id="line3"></div>
+        
+                        </div>
                     
                 
     </header>
