@@ -1,4 +1,4 @@
-document.getElementByclas('Send').addEventListener('click',function(){
+document.getElementById('Send').addEventListener('click',function(){
     document.querySelector(".main_div").style.display ='flex';
     document.querySelector('.contact_f').style.display='none';
     

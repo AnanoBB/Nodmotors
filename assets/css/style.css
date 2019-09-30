@@ -278,10 +278,13 @@ header{
     justify-content: space-around;
 }
 
-.performance img{
+
+.txt_overlay{
     width:440px;
     height:427px;
 }
+
+
 
 .performance h1{
     font-size: 30px;
