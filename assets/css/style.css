@@ -11,6 +11,14 @@
     font-family: panton;
 }
 
+.clicked_menu{
+    display: none;
+}
+
+.burger_lines{
+    display: none;
+}
+
 .body{
     max-width: 1084px;
     margin: 0 auto;
@@ -542,6 +550,243 @@ input{
 
 
 
+@media (max-width:320px){
+
+    .header{
+        position: relative;
+        z-index:9;
+        height: 60px;
+    }
+    .nav ul{
+        display: none;
+    }
+
+    .hero{
+    height: 300px;
+    width: 400px;}
+    
+    .hero::after{
+       height:568px;
+    }
+
+    .hero_content{
+        width:320px;
+        width:400px;
+        font-size:13px;
+        text-align: center;
+       
+
+    }
+
+    .hero_img{
+    position:inherit;
+    z-index:-2;
+    width: 100%;
+    height:223px;
+    object-fit: cover;
+    }
+
+
+    .car_info{
+        width:280px;
+        height:30px;
+        display: flex;
+        justify-content: space-between;
+        margin-left:69px
+        
+
+    }
+
+
+
+    .car_info ul{
+        margin-left:0px;
+        margin-right: 0px;
+    }
+
+    .car_info li:nth-child(2){
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+    .cars::after{
+        position: absolute;
+        top:423px;
+        left:74px;
+        
+    }
+    .cars{
+       
+        width: 320px;
+        
+      
+    }
+    .cars_header{
+        text-align: center;
+        margin-top:185px;
+    }
+
+    .form{
+        display: block;  
+        margin-left:81px;
+    }
+
+    .selector{
+        background-color: #fff;
+        margin-top:20px; 
+
+    }
+    .amount{
+        background-color: #fff;
+        margin-top:20px;
+        margin-left:47px; 
+    }
+
+    .cars_p{
+        text-align: center;
+    }
+
+    .cars_list{
+      margin:0;
+    }
+    .car_ul{
+        display: flex;
+        flex-direction: column;
+        width:320px;
+    }
+
+    .car_ul li{
+        margin:0;
+        width:340px;
+        margin-top:50px;
+    }
+
+    .hero_content::after{
+    width:320px;    
+    height: 300px;
+    display: block;
+    position:absolute;
+    top:60px;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: #181818;
+    opacity: .6;
+    z-index: -1;}
+
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+        margin-left:40px; 
+    }
+    .footer{ 
+        flex-direction: column-reverse;
+        height: 210px;
+        
+    }
+
+    .burger_lines{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        right:5%;
+        top:5%;
+        transform: translate(-5%,-50%);
+        margin-top:25px;
+    }  
+
+    .line{
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color:black;
+        border-radius: 1px;
+        transition: 0.3s ease;
+        margin: 3px;
+    }
+   
+    .clicked_menu{
+        position:absolute;
+        width: 320px;
+        height:508px;
+        margin-top:89px;
+
+    }
+
+   
+    .clicked_menu{
+        display: block;
+    }
+    .burger_lines{
+        display: block;
+    }
+
+    #line1{
+        transform: translateY(-3px);
+    }
+
+    #line3{transform: translateY(3px);
+    }
+
+    .active #line1 {
+        transform: translateY(6px) rotateZ(-45deg);
+    }
+
+    .active #line3 {
+        transform: translateY(-5px) rotate(45deg);
+    }
+
+    .active #line2 {
+        opacity: 0;
+    }
+
+
+
+    .burger_menu{
+        background-color: #fff;
+        display: flex;
+        text-decoration: none;
+        height: 568px;
+        margin-top: 197px;
+        width: 320px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        z-index:2; 
+              
+        
+    }
+    
+    .burger_ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 400px; 
+        margin-right:24px;   
+    }
+
+    .burger_li{
+        color: #181818;
+        cursor: pointer;
+        
+    }
+
+    .burger_li:hover{
+    color:#BADC58;
+    background-color:#fff;
+    transition:300ms color ease;
+    }
+
+    
+
+   
+}
 
 
 
