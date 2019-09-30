@@ -552,6 +552,12 @@ input{
 
 @media (max-width:320px){
 
+
+   body{ display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;}
+
     .header{
         position: relative;
         z-index:9;
@@ -563,7 +569,7 @@ input{
 
     .hero{
     height: 300px;
-    width: 400px;}
+    width: 320px;}
     
     .hero::after{
        height:568px;
@@ -571,7 +577,7 @@ input{
 
     .hero_content{
         width:320px;
-        width:400px;
+       
         font-size:13px;
         text-align: center;
        
@@ -581,7 +587,7 @@ input{
     .hero_img{
     position:inherit;
     z-index:-2;
-    width: 100%;
+    width: 320px;
     height:223px;
     object-fit: cover;
     }
@@ -592,7 +598,7 @@ input{
         height:30px;
         display: flex;
         justify-content: space-between;
-        margin-left:69px
+        margin-left:23px;
     
     }
 
@@ -618,6 +624,7 @@ input{
     .cars{
        
         width: 320px;
+        margin:0px;
         
       
     }
@@ -661,6 +668,11 @@ input{
         margin-top:50px;
     }
 
+    .car_img{
+        width:320px;
+        height: 196px;
+    }
+
     .hero_content::after{
     width:320px;    
     height: 300px;
@@ -673,7 +685,10 @@ input{
     background-color: #181818;
     opacity: .6;
     z-index: -1;}
-
+    
+    .hero_content p{
+        width:320px;
+    }
 
     footer{
         display: flex;
@@ -683,6 +698,7 @@ input{
     .footer{ 
         flex-direction: column-reverse;
         height: 210px;
+        margin-top:30px
         
     }
 
@@ -784,7 +800,17 @@ input{
     }
 
     #overlay{
-        display: none;
+        position: absolute;
+        z-index:6;
+    }
+
+    .overlay_form{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        z-index:3;
     }
 
     
