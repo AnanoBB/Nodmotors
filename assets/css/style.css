@@ -530,7 +530,7 @@ input{
     text-align:justify;
     
 }
-.submit{
+.Submit{
     background-image: linear-gradient(#6AB04C, #BADC58);
     color:#fff;
     text-align: center;
@@ -593,8 +593,7 @@ input{
         display: flex;
         justify-content: space-between;
         margin-left:69px
-        
-
+    
     }
 
 
@@ -758,6 +757,7 @@ input{
         flex-wrap: wrap;
         position: relative;
         z-index:2; 
+        
               
         
     }
@@ -781,6 +781,10 @@ input{
     color:#BADC58;
     background-color:#fff;
     transition:300ms color ease;
+    }
+
+    #overlay{
+        display: none;
     }
 
     
